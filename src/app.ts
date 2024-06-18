@@ -2,9 +2,9 @@ import express, { Request, Response, Express } from "express";
 import { bootstrap } from "./nestjs-app-module";
 
 const app: Express = express();
-const port = 3000;
+const port = 3002;
 
-app.get("/express", (req: Request, res: Response) => {
+app.get("/", (req: Request, res: Response) => {
   res.send("Hello from Express!");
 });
 

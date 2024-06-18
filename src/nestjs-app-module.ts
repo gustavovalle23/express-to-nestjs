@@ -5,7 +5,6 @@ import {
   NestExpressApplication,
   ExpressAdapter,
 } from "@nestjs/platform-express";
-import * as express from "express";
 
 @Controller("nest")
 class AppController {
